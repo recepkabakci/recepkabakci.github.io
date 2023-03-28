@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0 ;
@@ -223,20 +225,22 @@ body{
 
 .download-cv-btn{
     position: absolute;
-    bottom: 20px;
-    left: 50%;
+    bottom: 100px;
+    left: 25%;
     transform: translateX(-50%);
     padding: 10px 20px;
     color: #fff;
-    border: none;
+    border: 10x solid #fff;
+    border-radius: 25%;
     font-size: 16px;
     text-transform: capitalize;
     cursor: pointer;
-    transition: .5s;
-    background: black;
+    transition: .2s;
+    background: rgb(59, 58, 58);
+    text-decoration: none;
 }
 .download-cv-btn:hover{
-    background: black;
+    background: rgb(66, 65, 65);
 }
 
 .skill-section{
@@ -522,5 +526,4 @@ body{
     height:100%;
     border-radius: 5px;
 }
-
 
